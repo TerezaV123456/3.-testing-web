@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
+    <script src="https://kit.fontawesome.com/99166ee614.js" crossorigin="anonymous"></script>
+    <title>Domů</title>
+</head>
+<body>
+
+    <!--Navigation-->
+    <nav>
+        <div class="left-nav">
+            <img src="/images/default-logo.png" alt="logo">
+        </div>
+
+        <div class="right-nav">
+            <a href="/index.html">HOME</a>
+            <a href="/about-us/about-us.html">ABOUT US</a>
+            <a href="/our-team/our-team.html">OUR TEAM</a>
+            <a href="/contact-us/contact-us.html">CONTACT US</a>
+        </div>
+
+        <!-- Hamburger menu -->
+        <div class="hamburger" onclick="toggleSidebar()">&#9776;</div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="sidebar" id="sidebar">
+        <div class="close-btn" onclick="toggleSidebar()">&#10005;</div> <!-- Křížek pro zavření -->
+        <a href="/index.html" onclick="toggleSidebar()">DOMŮ</a>
+        <a href="/about-us/about-us.html" onclick="toggleSidebar()">O NÁS</a>
+        <a href="/our-team/our-team.html" onclick="toggleSidebar()">SLUŽBY</a>
+        <a href="/contact-us/contact-us.html" onclick="toggleSidebar()">KONTAKT</a>
+    </div>
+
+    <!--Main section-->
+    <section id="main">
+        <img src="/images/96-4752x3168.jpg" alt="obrázek">
+        <h1>Our Services</h1>
+    </section>
+
+    <!--Service section-->
+    <section id="services">
+        <div class="services-text">
+            <h2>Services We Provide</h2>
+            <p>Nunc eu turpis id nulla sodales luctus. Vestibulum fermentum dui faucibus ligula dapibus scelerisque. 
+                Etiam laoreet vitae est vitae convallis.</p>
+        </div>
+
+        <div class="services-boxes">
+            <div class="services-box">
+                <i class="fa-regular fa-lightbulb"></i>
+                <h3>Mission</h3>
+            </div>
+
+            <div class="services-box">
+                <i class="fa-solid fa-piggy-bank"></i>
+                <h3>Energy Saving</h3>
+            </div>
+            
+            <div class="services-box">
+                <i class="fa-solid fa-house-fire"></i>
+                <h3>Smart Heating</h3>
+            </div>
+
+            <div class="services-box">
+                <i class="fa-solid fa-building-shield"></i>
+                <h3>Security Protection</h3>
+            </div>
+        </div>
+    </section>
+
+    <!--Camera section-->
+    <section id="camera">
+
+        <div class="left-side">
+            <h2>Smart Camera Control</h2>
+
+            <div class="checkmarks-camera">
+                <p><i class="fa-solid fa-check"></i>100% Wire-Free – Free of power cords</p>
+                <p><i class="fa-solid fa-check"></i>HD Video – Enjoy sharp, detailed video</p>
+                <p><i class="fa-solid fa-check"></i>Rechargeable – Long lasting batteries</p>
+                <p><i class="fa-solid fa-check"></i>Quick Charging – Get fast battery charging</p>
+                <p><i class="fa-solid fa-check"></i>2-way Audio – Listen in or talk back.</p>
+            </div>
+            <a href="/contact-us/contact-us.html"><button>LEARN MORE</button></a>
+        </div>
+
+        <div class="right-side">
+            <img src="/images/373-4896x3264.jpg" alt="Camera Image">
+        </div>
+    </section>
+
+    <!--Smart section-->
+    <section id="smart">
+
+        <div class="smart-left">
+            <img src="/images/close-up-man-writing-code-laptop.jpg" alt="obrazek">
+        </div>
+
+        <div class="smart-right">
+            <div class="smart-title">
+                <h2>About Smart Home<h2>
+            </div>
+
+            <div class="checkmarks-smart">
+                <p><i class="fa-solid fa-check"></i>Smart Lighting Setup</p>
+                <p><i class="fa-solid fa-check"></i>Media Room Setup</p>
+                <p><i class="fa-solid fa-check"></i>Home Theater Setup</p>
+                <p><i class="fa-solid fa-check"></i>Smart Doorbell Installation</p>
+                <p><i class="fa-solid fa-check"></i>Smart Thermostat Installation</p>
+                <p><i class="fa-solid fa-check"></i>Smart Door Lock Installation</p>
+            </div>
+            <div class="button-smart">
+                <a href="/contact-us/contact-us.html"><button>LEARN MORE</button></a>
+            </div>
+        </div>
+    </section>
+
+    <!--People section-->
+    <section id="people">
+        <h2>People Trust Us</h2>
+        <p>Sample text. Click to select the Text Element. Lorem ipsum dolor sit amet, consectetur adipiscing 
+            elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <a href="/about-us/about-us.html"><button>SEE ALL PRODUCTS</button></a>
+    </section>
+
+    <!--Statistic section-->
+    <section id="statistic">
+        <div class="stats-title">
+            <h2>Know more about Smart Home</h2>
+        </div>
+
+        <div class="stats-boxes">
+            <div class="stats-box">
+                <h4>20k</h4>
+                <p>Tasks</p>
+            </div>
+
+            <div class="stats-box">
+                <h4>7k</h4>
+                <p>Happy Clients</p>
+            </div>
+
+            <div class="stats-box">
+                <h4>156</h4>
+                <p>Cups of Coffee</p>
+            </div>
+            
+            <div class="stats-box">
+                <h4>65</h4>
+                <p>Unique Ideas</p>
+            </div>
+        </div>
+    </section>
+
+    <!--Form section-->
+    <section id="form">
+        <div class="form-left">
+            <h2>Make Smart Home Project</h2>
+            <p>Sample text. Click to select the Text Element.</p>
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your Name" required><br />
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter a valid email address" required><br />
+
+                <label for="message">Message</label>
+                <input type="text" id="message" name="message" placeholder="Enter your message"><br />
+
+                <input type="submit" id="send" value="SEND">
+            </form>
+        </div>
+        <div class="form-right">
+            <img src="/images/668-4133x2745.jpg" alt="obrazek">
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer>
+        <div class="left-footer">
+            <img src="/images/default-logo.png" alt="footer logo">
+        </div>
+
+        <div class="right-footer">
+            <div class="first-contact">
+                <h3>Phone number</h3>
+                <i class="fa-solid fa-phone"></i><a href="tel:123456789">+420 123 456 789</a>
+            </div>
+
+            <div class="second-contact">
+                <h3>Email</h3>
+                <i class="fa-solid fa-envelope"></i><a href="mailto:mail@provider.com">mail@provider.com</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
