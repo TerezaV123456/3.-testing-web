@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="about-us.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
+    <script src="https://kit.fontawesome.com/99166ee614.js" crossorigin="anonymous"></script>
+    <title>ABOUT US</title>
+</head>
+<body>
+    <!--Navigation-->
+    <nav>
+        <div class="left-nav">
+            <img src="/images/default-logo.png" alt="logo">
+        </div>
+
+        <div class="right-nav">
+            <a href="/index.html">HOME</a>
+            <a href="/about-us/about-us.html">ABOUT US</a>
+            <a href="/our-team/our-team.html">OUR TEAM</a>
+            <a href="/contact-us/contact-us.html">CONTACT US</a>
+        </div>
+
+        <!-- Hamburger menu -->
+        <div class="hamburger" onclick="toggleSidebar()">&#9776;</div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="sidebar" id="sidebar">
+        <div class="close-btn" onclick="toggleSidebar()">&#10005;</div> <!-- Křížek pro zavření -->
+        <a href="/index.html" onclick="toggleSidebar()">HOME</a>
+        <a href="/about-us/about-us.html" onclick="toggleSidebar()">ABOUT US</a>
+        <a href="/our-team/our-team.html" onclick="toggleSidebar()">OUR TEAM</a>
+        <a href="/contact-us/contact-us.html" onclick="toggleSidebar()">CONTACT US</a>
+    </div>    
+
+    <!--Main section-->
+    <section class="main-section">
+        <h1>About Smart Homes</h1>
+        <img src="/images/repairman-doing-annual-system-servicing.jpg" alt="obrazek">
+        <div class="in-main">
+            <div class="img-box">
+                <img src="/images/816-5000x3333.jpg" alt="obrazek">
+            </div>
+
+            <div class="text-box">
+                <h3>Smarter Home. Simplified Life.</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.</p>
+                
+                <div class="stats-main">
+                    <div class="stat-box">
+                        <h4>300+</h4>
+                        <p>HAPPY CLIENTS</p>
+                    </div>
+
+                    <div class="stat-box">
+                        <h4>10+</h4>
+                        <p>YEARS OF EXPERIENCE</p>
+                    </div>
+
+                    <div class="stat-box">
+                        <h4>17</h4>
+                        <p>AWARDS</p>
+                    </div>
+                </div>
+
+                <div class="main-button">
+                    <button class="contact-button">Contact Us</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--People section-->
+    <section id="people">
+        <h2>People Trust Us</h2>
+        <p>Sample text. Click to select the Text Element. Lorem ipsum dolor sit amet, consectetur adipiscing 
+            elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <a href="/about-us/about-us.html"><button>SEE ALL PRODUCTS</button></a>
+    </section>
+
+        <!--Us section-->
+        <section id="us">
+            <div class="us-left">
+                <h3>Who We are</h3>
+            </div>
+        </section>    
+
+    <!--Footer-->
+    <footer>
+        <div class="left-footer">
+            <img src="/images/default-logo.png" alt="footer logo">
+        </div>
+
+        <div class="right-footer">
+            <div class="first-contact">
+                <h3>Phone number</h3>
+                <i class="fa-solid fa-phone"></i><a href="tel:123456789">+420 123 456 789</a>
+            </div>
+
+            <div class="second-contact">
+                <h3>Email</h3>
+                <i class="fa-solid fa-envelope"></i><a href="mailto:mail@provider.com">mail@provider.com</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/script.js"></script>
+</body>
+</html>
