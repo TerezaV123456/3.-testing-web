@@ -109,14 +109,15 @@ nav img {
 .main-section {
     position: relative;
     text-align: center;
-    margin-bottom: 5vmax;
+    margin-bottom: 8vmax;
 }
 
-.main-section img {
+.main-image {
     width: 100%;
     height: 35vmax;
     object-fit: cover; 
     filter: brightness(60%);
+    z-index: 1;
 }
 
 .main-section h1 {
@@ -134,13 +135,13 @@ nav img {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    z-index: 2;
     margin-top: -10vmax;
     justify-content: center;
 }
 
 .img-box {
     width: 30%;
+    z-index: 2;
 }
 
 .text-box {
@@ -223,7 +224,7 @@ nav img {
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin-bottom: 3vmax;
+    margin-bottom: 8vmax;
 }
 
 #people h2 {
@@ -254,6 +255,122 @@ nav img {
     background: var(--blue);
     color: var(--light-blue);
     cursor: pointer;
+}
+
+/*US SECTION*/
+
+#us {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 5vmax;
+}
+
+.us-left {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2vmax;
+}
+
+.us-left h3 {
+    font-size: 50px;
+}
+
+.us-box {
+    display: flex;
+    flex-direction: row;
+    gap: 1vmax;
+    align-items: center;
+}
+
+.box-right {
+    display: flex;
+    flex-direction: column;
+    gap: 1vmax;
+}
+
+.us-box i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    font-size: 45px;
+    background-color: var(--blue);
+    color: var(--white);
+    border-radius: 50px;
+}
+
+.us-box h4 {
+    font-size: 20px;
+}
+
+.us-box p {
+    font-size: 18px;
+}
+
+.us-right {
+    width: 30%;
+}
+
+#us img {
+    width: 600px;
+    height: 650px;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+/*STATISTIC SECTION*/
+
+#statistic {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: var(--light-blue);
+    margin-bottom: 5vmax;
+}
+
+.stats-title {
+    font-size: 35px;
+    margin: 2vmax 0vmax 2vmax 0vmax;
+}
+
+.stats-boxes {
+    display: flex;
+    flex-direction: row;
+    gap: 2vmax;
+    padding: 20px;
+    margin-bottom: 3vmax;
+}
+
+.stats-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vmax;
+    border-radius: 25px;
+    width: 250px;
+    height: 250px;
+    background-color: var(--white);
+}
+
+.stats-box h4 {
+    font-size: 60px;
+    font-weight: bold;
+    color: var(--blue);
+}
+
+.stats-box p {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--black);
 }
 
 /*FOOTER*/
