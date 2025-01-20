@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="our-team.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
+    <script src="https://kit.fontawesome.com/99166ee614.js" crossorigin="anonymous"></script>
+    <title>OUR TEAM</title>
+</head>
+<body>
+    <!--Navigation-->
+    <nav>
+        <div class="left-nav">
+            <img src="/images/default-logo.png" alt="logo">
+        </div>
+
+        <div class="right-nav">
+            <a href="/index.html">HOME</a>
+            <a href="/about-us/about-us.html">ABOUT US</a>
+            <a href="/our-team/our-team.html">OUR TEAM</a>
+            <a href="/contact-us/contact-us.html">CONTACT US</a>
+        </div>
+
+        <!-- Hamburger menu -->
+        <div class="hamburger" onclick="toggleSidebar()">&#9776;</div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="sidebar" id="sidebar">
+        <div class="close-btn" onclick="toggleSidebar()">&#10005;</div>
+        <a href="/index.html" onclick="toggleSidebar()">HOME</a>
+        <a href="/about-us/about-us.html" onclick="toggleSidebar()">ABOUT US</a>
+        <a href="/our-team/our-team.html" onclick="toggleSidebar()">OUR TEAM</a>
+        <a href="/contact-us/contact-us.html" onclick="toggleSidebar()">CONTACT US</a>
+    </div> 
+    
+    <!--Main section-->
+    <section id="main-section">
+        <h1>OUR TEAM</h1>
+        <img class="main-image" src="/images/group-young-business-people-working-office.jpg" alt="photo">
+
+        <div class="main-boxes">
+            <div class="main-box">
+                <i class="fa-solid fa-bullseye"></i>
+                <h2>Mission</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+
+            <div class="main-box">
+                <i class="fa-solid fa-rocket"></i>
+                <h2>Vision</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+
+            <div class="main-box">
+                <i class="fa-solid fa-user-group"></i>
+                <h2>Our People</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+        </div>
+    </section>
+
+     <!--People section-->
+     <section id="people">
+        <h2>People Trust Us</h2>
+        <p>Sample text. Click to select the Text Element. Lorem ipsum dolor sit amet, consectetur adipiscing 
+            elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <a href="/about-us/about-us.html"><button>SEE ALL PRODUCTS</button></a>
+    </section>
+
+    <!--Team section-->
+    <section id="team">
+        <div class="team-titles">
+            <h2>Our Team</h2>
+            <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+
+        <div class="team-boxes">
+            <div class="team-box">
+                <img src="/images/Team1.jpg" alt="photo1">
+                <div class="team-content">
+                    <h3>Pepinka Nováková</h3>
+                    <p>Creative Leader</p>
+                </div>
+            </div>
+
+            <div class="team-box">
+                <img src="/images/Team2.jpg" alt="photo2">
+                <div class="team-content">
+                    <h3>Pepa Novák</h3>
+                    <p>Chief Accountant</p>
+                </div>
+            </div>
+
+            <div class="team-box">
+                <img src="/images/Team3.jpg" alt="photo3">
+                <div class="team-content">
+                    <h3>Julinka Nováková</h3>
+                    <p>Sales Manager</p>
+                </div>
+            </div>
+        </div>
+    </section>

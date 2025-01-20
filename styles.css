@@ -434,7 +434,7 @@ nav img {
 #form {
     display: flex;
     flex-direction: row;
-    margin-bottom: 2vmax;
+    margin-bottom: 5vmax;
 }
 
 .form-left {

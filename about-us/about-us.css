@@ -75,10 +75,6 @@ html, body {
     transition: color 0.3s;
 }
 
-.close-btn:hover {
- 
-}
-
 nav {
     display: flex;
     flex-direction: row;
@@ -443,7 +439,7 @@ nav img {
 #smart {
     display: flex;
     flex-direction: row;  
-    margin-bottom: 8vmax;
+    margin-bottom: 5vmax;
     background-color: var(--light-blue);
     padding: 5vmax 0vmax 5vmax 0vmax;
 }
@@ -515,6 +511,151 @@ nav img {
     background: var(--blue);
     color: var(--light-blue);
     cursor: pointer;
+}
+
+/*TEAM SECTION*/
+
+#team {
+    margin-bottom: 10vmax;
+}
+
+.team-title {
+    text-align: center;
+}
+
+.team-title h3 {
+    font-size: 50px;
+    margin-bottom: 1vmax;
+}
+
+.team-title p {
+    font-size: 20px;
+    color: #555555e5;
+    margin-bottom: 3vmax;
+}
+
+.team-boxes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5vmax;
+    text-align: center;
+}
+
+.team-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.team-box img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.team-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5vmax;
+}
+
+.team-content h3 {
+    margin-top: 0.5vmax;
+    font-size: 25px;
+}
+
+/*FORM SECTION*/
+
+#form {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5vmax;
+}
+
+.form-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left: 20vmax;
+}
+
+.form-left h2 {
+    margin-bottom: 0.5vmax;
+    font-size: 40px;
+}
+
+.form-left p {
+    font-size: 20px;
+    margin-bottom: 1vmax;
+}
+
+.form-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-right: 10vmax;
+}
+
+.form-right img {
+    width: 50%;
+    height: 100%;
+    border-radius: 25px;
+    object-fit: cover;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--light-gray);
+    border-radius: 25px;
+    padding: 40px;
+}
+
+form label {
+    font-size: 18px;
+    text-align: left;
+}
+
+#name {
+    width: 400px;
+    height: 50px;
+    border-radius: 25px;
+    border:1px solid #f2f2f2;
+    padding: 0px 0px 0px 15px;
+}
+
+#email {
+    width: 400px;
+    height: 50px;
+    border-radius: 25px;
+    border:1px solid #f2f2f2;
+    padding: 0px 0px 0px 15px;
+}
+
+#message {
+    width: 400px;
+    height: 150px;
+    border-radius: 25px;
+    border:1px solid #f2f2f2;
+    padding: 0px 0px 0px 15px;
+}
+
+#send {
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: var(--blue);
+    color: var(--white);
+    font-size: 18px;
+    font-weight: bold;
+    border:0px solid #f2f2f2;
 }
 
 /*FOOTER*/
