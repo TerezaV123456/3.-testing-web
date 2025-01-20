@@ -1,3 +1,5 @@
+/*::-webkit-scrollbar <-- Scroll bar */
+
 :root {
     --white: #ffffff;
     --black: #000000;
@@ -329,11 +331,11 @@ nav img {
 #statistic {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
     text-align: center;
     align-items: center;
     background-color: var(--light-blue);
-    margin-bottom: 5vmax;
 }
 
 .stats-title {
@@ -372,6 +374,44 @@ nav img {
     font-weight: bold;
     color: var(--black);
 }
+
+/*SLIDER SECTION*/
+
+#slider {
+    background-color: var(--light-blue);
+    padding-top: 10vmax;
+}
+
+.slider-titles {
+    gap: 2vmax;
+}
+
+.slider-titles h2 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.slider-titles p {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 2vmax;
+}
+
+.slider-container {
+    overflow: auto;
+    white-space: nowrap;
+    display: flex;
+    padding: 9px;
+}
+
+.slider-container img {
+    padding: 1px;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+
 
 /*FOOTER*/
 
