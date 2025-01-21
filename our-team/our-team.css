@@ -211,3 +211,264 @@ nav img {
     color: var(--light-blue);
     cursor: pointer;
 }
+
+/*TEAM SECTION*/
+
+#team {
+    background-color: var(--light-blue);
+    padding: 40px;
+    padding-bottom: 80px;
+}
+
+.team-titles {
+    text-align: center;
+    padding: 0vmax 30vmax 0vmax 30vmax;
+}
+
+.team-titles h2 {
+    font-size: 50px;
+}
+
+.team-titles p {
+    font-size: 20px;
+    margin: 1vmax 0vmax 4vmax 0vmax;
+}
+
+.team-boxes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5vmax;
+}
+
+.team-box {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    background-color: var(--white);
+    width: 350px;
+    height: 450px;
+    border-radius: 25px;
+}
+
+.team-box img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 25px;
+}
+
+.team-content h3 {
+    margin: 0.5vmax 0vmax 0.5vmax 0vmax;
+    font-size: 25px;
+}
+
+.team-content p {
+    font-size: 18px;
+}
+
+/*STATISTIC SECTION*/
+
+#statistic {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: var(--light-blue);
+    margin-bottom: 5vmax;
+}
+
+.stats-title {
+    font-size: 35px;
+    margin: 2vmax 0vmax 2vmax 0vmax;
+}
+
+.stats-boxes {
+    display: flex;
+    flex-direction: row;
+    gap: 2vmax;
+    padding: 20px;
+    margin-bottom: 3vmax;
+}
+
+.stats-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vmax;
+    border-radius: 25px;
+    width: 250px;
+    height: 250px;
+    background-color: var(--white);
+}
+
+.stats-box h4 {
+    font-size: 60px;
+    font-weight: bold;
+    color: var(--blue);
+}
+
+.stats-box p {
+    font-size: 20px;
+    font-weight: bold;
+    color: var(--black);
+}
+
+/*FORM SECTION*/
+
+#form {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5vmax;
+}
+
+.form-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-left: 20vmax;
+}
+
+.form-left h2 {
+    margin-bottom: 0.5vmax;
+    font-size: 40px;
+}
+
+.form-left p {
+    font-size: 20px;
+    margin-bottom: 1vmax;
+}
+
+.form-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-right: 10vmax;
+}
+
+.form-right img {
+    width: 50%;
+    height: 100%;
+    border-radius: 25px;
+    object-fit: cover;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--light-gray);
+    border-radius: 25px;
+    padding: 40px;
+}
+
+form label {
+    font-size: 18px;
+    text-align: left;
+}
+
+#name {
+    width: 400px;
+    height: 50px;
+    border-radius: 25px;
+    border:1px solid #f2f2f2;
+    padding: 0px 0px 0px 15px;
+}
+
+#email {
+    width: 400px;
+    height: 50px;
+    border-radius: 25px;
+    border:1px solid #f2f2f2;
+    padding: 0px 0px 0px 15px;
+}
+
+#message {
+    width: 400px;
+    height: 150px;
+    border-radius: 25px;
+    border:1px solid #f2f2f2;
+    padding: 0px 0px 0px 15px;
+}
+
+#send {
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: var(--blue);
+    color: var(--white);
+    font-size: 18px;
+    font-weight: bold;
+    border:0px solid #f2f2f2;
+}
+
+/*FOOTER*/
+
+footer {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--black-background);
+    padding: 20px;
+    align-items: center;
+}
+
+.left-footer {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.right-footer {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.right-footer h3 {
+    font-size: 20px;
+    color: var(--white);
+    margin-bottom: 0.2vmax;
+}
+
+.right-footer a {
+    text-decoration: none;
+    color: var(--white);
+    font-size: 18px;
+}
+
+.right-footer i {
+    color: var(--white);
+    margin-right: 0.3vmax;
+    font-size: 25px;
+}
+
+.first-contact {
+    margin-bottom: 1vmax;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    nav {
+        margin: 1.5vmax;
+    }
+
+    .hamburger {
+        display: inline;
+
+    }
+
+    .right-nav {
+        display: none; 
+    }
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact-us.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+    </style>
+    <script src="https://kit.fontawesome.com/99166ee614.js" crossorigin="anonymous"></script>
+    <title>CONTACT US</title>
+</head>
+<body>
+    <!--Navigation-->
+    <nav>
+        <div class="left-nav">
+            <img src="/images/default-logo.png" alt="logo">
+        </div>
+
+        <div class="right-nav">
+            <a href="/index.html">HOME</a>
+            <a href="/about-us/about-us.html">ABOUT US</a>
+            <a href="/our-team/our-team.html">OUR TEAM</a>
+            <a href="/contact-us/contact-us.html">CONTACT US</a>
+        </div>
+
+        <!-- Hamburger menu -->
+        <div class="hamburger" onclick="toggleSidebar()">&#9776;</div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div class="sidebar" id="sidebar">
+        <div class="close-btn" onclick="toggleSidebar()">&#10005;</div>
+        <a href="/index.html" onclick="toggleSidebar()">HOME</a>
+        <a href="/about-us/about-us.html" onclick="toggleSidebar()">ABOUT US</a>
+        <a href="/our-team/our-team.html" onclick="toggleSidebar()">OUR TEAM</a>
+        <a href="/contact-us/contact-us.html" onclick="toggleSidebar()">CONTACT US</a>
+    </div> 
+
+    <!--Main section-->
+    <section id="main">
+        <img src="/images/man-does-sf-online-consciousness-upload-trying-transcend-out-simulation.jpg" alt="obrázek">
+        <h1>CONTACT US</h1>
+    </section>
+
+    <!--Offices section-->
+    <section id="offices">
+        <h2>Offices</h2>
+
+        <div class="offices-boxes">
+            <div class="office-box">
+                <h3>LDN</h3>
+                <a href="mailto:london@provider.com">london@provider.com</a>
+                <p>Suite 515 255 Julius Loaf, <br />New Tannerside, VT 26458-0312</p>
+                <button>GOOGLE MAP</button>
+            </div>
+
+            <div class="office-box">
+                <h3>NYC</h3>
+                <a href="mailto:nyc@provider.com">nyc@provider.com</a>
+                <p>8776 Pennsylvania <br />St.Poughkeepsie, NY 12601 </p>
+                <button>GOOGLE MAP</button>
+            </div>
+
+            <div class="office-box">
+                <h3>SYDNEY</h3>
+                <a href="mailto:sydney@provider.com">sydney@provider.com</a>
+                <p>199 George St, <br />The Rocks NSW 2000, Australia</p>
+                <button>GOOGLE MAP</button>
+            </div>
+        </div>
+    </section>
+
+    <!--Form section-->
+    <section id="form">
+        <div class="form-left">
+            <h2>Make Smart Home Project</h2>
+            <p>Sample text. Click to select the Text Element.</p>
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your Name" required><br />
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter a valid email address" required><br />
+
+                <label for="message">Message</label>
+                <input type="text" id="message" name="message" placeholder="Enter your message"><br />
+
+                <input type="submit" id="send" value="SEND">
+            </form>
+        </div>
+        <div class="form-right">
+            <img src="/images/668-4133x2745.jpg" alt="obrazek">
+        </div>
+    </section>
+
+    <!--Map section-->
+    <section id="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d41900.788494032044!2d14.449262034168726!3d48.97634513439378!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47734fb43a5f629b%3A0x400af0f6614de80!2zxIxlc2vDqSBCdWTEm2pvdmljZQ!5e0!3m2!1sen!2scz!4v1737449244524!5m2!1sen!2scz" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <!--Footer-->
+    <footer>
+        <div class="left-footer">
+            <img src="/images/default-logo.png" alt="footer logo">
+        </div>
+
+        <div class="right-footer">
+            <div class="first-contact">
+                <h3>Phone number</h3>
+                <i class="fa-solid fa-phone"></i><a href="tel:123456789">+420 123 456 789</a>
+            </div>
+
+            <div class="second-contact">
+                <h3>Email</h3>
+                <i class="fa-solid fa-envelope"></i><a href="mailto:mail@provider.com">mail@provider.com</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/script.js"></script>
+</body>
+</html>

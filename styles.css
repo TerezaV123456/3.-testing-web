@@ -121,11 +121,11 @@ nav img {
 }
 
 #main h1 {
+    text-align: center;
     position: absolute;
     z-index: 2;
     top: 30%;
     left: 35%;
-    text-align: center;
     font-size: 100px;
     color: var(--white);
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
@@ -265,7 +265,7 @@ nav img {
 
 #smart {
     display: flex;
-    flex-direction: row;  
+    flex-direction: row; 
     margin-bottom: 8vmax;
 }
 
@@ -400,6 +400,8 @@ nav img {
 .stats-boxes {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 2vmax;
     padding: 20px;
     margin-bottom: 3vmax;
@@ -565,7 +567,84 @@ footer {
     margin-bottom: 1vmax;
 }
 
+@media screen and (max-width: 3840px) {
+    #main h1 {
+        font-size: 200px;
+    }
+}
 
+@media screen and (max-width: 1920px) {
+    #main h1 {
+        font-size: 100px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    #camera {
+        height: 50vmax;
+    }
+
+    .form-right {
+        display: none;
+    }
+
+    .form-left {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    #main h1 {
+        left: 25%;
+    }
+
+    #camera {
+        height: 50vmax;
+    }
+
+    .smart-left {
+        display: none;
+    }
+
+    .smart-right {
+        width: 100%;
+        margin-left: 15vmax;
+    }
+
+    #people p {
+        margin: 2vmax 5vmax 2vmax 5vmax;
+    }
+
+    .form-right {
+        display: none;
+    }
+
+    .form-left {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 992px) {
+
+    .services-text p {
+        margin: 2vmax 10vmax 5vmax 10vmax;
+    }
+
+    #camera {
+        height: 60vmax;
+    }
+
+    .right-side {
+        display: none;
+    }
+
+    .left-side {
+        width: 100%;
+    }
+
+}
 
 @media screen and (max-width: 768px) {
     nav {
@@ -580,6 +659,75 @@ footer {
     .right-nav {
         display: none; 
     }
+
+    #main h1 {
+        position: absolute;
+        z-index: 2;
+        top: 20%;
+        left: 20%;
+        text-align: center;
+        font-size: 90px;
+        color: var(--white);
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    }
+
+    .services-text p {
+        margin: 2vmax 2vmax 5vmax 2vmax;
+    }
+
+    #camera {
+        height: 80vmax;
+    }
+
+    .left-side {
+        width: 100%;
+    }
+
+    .right-side {
+        display: none;
+    }
+
+    #smart {
+        width: 100%;
+    }
+
+    .smart-right {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 15vmax;
+        width: 100%;
+    }
+
+    .smart-left {
+        margin: 0;
+        display: none;
+    }
+
+    #people p {
+        margin: 3vmax;
+        font-size: 20px;
+    }
+
+    .form-right {
+        display: none;
+    }
+
+    .form-left {
+        width: 100%;
+        margin: 0vmax;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #main h1 {
+        top: 30%;
+        left: 5%;
+    }
+
+    .smart-right {
+        margin: 3vmax;
+    }
 }
 
 @media screen and (max-width: 480px) {
@@ -592,5 +740,73 @@ footer {
         font-size: 90px;
         color: var(--white);
         text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    }
+
+    .services-text h2 {
+        font-size: 40px;
+    }
+
+    .services-text p {
+        margin: 0vmax 0vmax 2vmax 0vmax;
+        font-size: 15px;
+    }
+
+    #camera {
+        height: 85vmax;
+    }
+
+    .left-side {
+        margin: 5vmax;
+    }
+
+    .left-side p {
+        margin-bottom: 2vmax;
+    }
+
+    .smart-left {
+        display: none;
+    }
+
+    .smart-right {
+        margin: 5vmax;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    #people {
+        margin-bottom: 7vmax;
+    }
+
+    #people h2 {
+        font-size: 40px;
+    }
+
+    #people p {
+        margin: 2vmax;
+        font-size: 16px;
+    }
+
+    .stats-title {
+        font-size: 30px;
+    }
+
+    .form-right {
+        display: none;
+    }
+
+    .form-left {
+        width: 100%;
+        margin: 0;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+        gap: 2vmax;
+    }
+
+    .right-footer h3 {
+        margin-bottom: 0.5vmax;
     }
 }
